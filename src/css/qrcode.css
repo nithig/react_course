@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&family=Inter:opsz@14..32&family=Poppins&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container h1{
+    color: royalblue;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+.qrimg{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+}
+
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: royalblue;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#dataInput, #sizeInput{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ;
+}
+
+.gen-button{
+    background-color: royalblue;
+}
+
+.gen-button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.download-button{
+    background-color: green;
+     margin-left: 10px;
+} 
+
+.download-button:hover{
+    background-color: darkgreen;
+}

@@ -1,0 +1,16 @@
+
+
+
+.student table {
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.student table th,
+.student table td {
+    border: 2px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
